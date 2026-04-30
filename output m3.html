@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radha Krishna Episode Guide</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#0b0c2a,#1b0f3a);
+    color:#fff;
+}
+
+/* Navbar */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    background:rgba(0,0,0,0.3);
+    backdrop-filter:blur(10px);
+}
+
+.navbar h1{
+    color:gold;
+}
+
+.nav-links a{
+    margin-left:20px;
+    text-decoration:none;
+    color:#fff;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:gold;
+}
+
+/* Hero Section */
+.hero{
+    margin:20px;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.hero img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+}
+
+/* Episodes */
+.episodes{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#fff;
+    color:#000;
+    border-radius:12px;
+    width:280px;
+    overflow:hidden;
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:160px;
+    object-fit:cover;
+}
+
+.card h3{
+    color:#6a1b9a;
+    margin:10px 0;
+}
+
+.card button{
+    margin:10px;
+    padding:8px 15px;
+    border:none;
+    background:#6a1b9a;
+    color:#fff;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+/* Music */
+.music{
+    text-align:center;
+    margin:20px;
+}
+
+/* Feedback */
+.feedback{
+    background:#fff;
+    color:#000;
+    margin:30px auto;
+    width:80%;
+    padding:20px;
+    border-radius:12px;
+}
+
+.feedback h2{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.feedback input,
+.feedback textarea{
+    width:100%;
+    margin:10px 0;
+    padding:10px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+.feedback button{
+    width:100%;
+    padding:10px;
+    background:#6a1b9a;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:15px;
+    color:#ccc;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <h1>Radha Krishna</h1>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Episodes</a>
+        <a href="#">Music</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+</div>
+
+<!-- Hero Section -->
+<div class="hero">
+    <img src="hero.jpg" alt="Radha Krishna">
+</div>
+
+<!-- Episodes -->
+<div class="episodes">
+
+    <div class="card">
+        <img src="ep1.jpg">
+        <h3>Episode 1</h3>
+        <p>The First Meeting</p>
+        <button>More Details</button>
+    </div>
+
+    <div class="card">
+        <img src="ep2.jpg">
+        <h3>Episode 2</h3>
+        <p>The Promise</p>
+        <button>More Details</button>
+    </div>
+
+    <div class="card">
+        <img src="ep3.jpg">
+        <h3>Episode 3</h3>
+        <p>The Challenge</p>
+        <button>More Details</button>
+    </div>
+
+</div>
+
+<!-- Music -->
+<div class="music">
+    <h3>🎵 Radha Krishna Theme Music</h3>
+    <audio controls>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+<!-- Feedback -->
+<div class="feedback">
+    <h2>💖 Give Your Feedback 💖</h2>
+    <input type="text" placeholder="Enter your name">
+    <input type="email" placeholder="Enter your email">
+    <textarea rows="4" placeholder="Write your comments here..."></textarea>
+    <button>Submit</button>
+</div>
+
+<!-- Footer -->
+<footer>
+    © 2025 Radha Krishna Episode Guide | Made with ❤️ for fans
+</footer>
+
+</body>
+</html>
